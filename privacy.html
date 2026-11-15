@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>おてがるんRTMP プライバシーポリシー / Otegarun RTMP Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1f24; --sub: #5b6170; --line: #e1e4ea; --accent: #0a9fc9; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121318; --fg: #e9ebf1; --sub: #9aa0b2; --line: #2a2e3a; --accent: #2fd3ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: "Yu Gothic UI", "Hiragino Sans", "Meiryo", system-ui, sans-serif; line-height: 1.8; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; line-height: 1.4; margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; margin: 28px 0 6px; padding-left: 10px; border-left: 4px solid var(--accent); }
+  .meta { color: var(--sub); margin: 0 0 8px; }
+  nav { margin: 8px 0 24px; } nav a { color: var(--accent); margin-right: 16px; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0; }
+  th, td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: color-mix(in srgb, var(--line) 50%, transparent); }
+  code { font-family: Consolas, monospace; font-size: .95em; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  a { color: var(--accent); word-break: break-all; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="#ja">日本語</a><a href="#en">English</a></nav>
+
+  <section id="ja" lang="ja">
+    <h1>おてがるんRTMP プライバシーポリシー</h1>
+    <p class="meta">制定日：2026年11月15日　／　発行元：PONNO</p>
+    <p>「おてがるんRTMP」（英語名：Otegarun RTMP、以下「本アプリ」）における利用者の情報の取り扱いについて説明します。</p>
+
+    <h2>1. 収集する情報</h2>
+    <p>本アプリは、<strong>利用者の個人情報を収集しません。</strong>氏名、メールアドレス、位置情報、連絡先、端末の識別子などを取得することはありません。</p>
+
+    <h2>2. ネットワーク通信</h2>
+    <ul>
+      <li>本アプリは、利用者がカメラや配信アプリで設定した送り先として、<strong>同じネットワーク（Wi-Fi・LAN）にある機器から RTMP で送られてくる映像を受け取ります</strong>。このために、利用者の PC で通信の受け口（標準はポート 1935）を開きます。</li>
+      <li>本アプリから<strong>インターネットへ通信することはありません。</strong>受け取った映像、設定、操作の記録を、発行元を含む外部に送信することはありません。広告や利用状況の解析（アクセス解析）の機能も含みません。</li>
+      <li>本アプリの受け口には、同じネットワーク上の機器であれば誰でも映像を送ることができます。公共の Wi-Fi などでは、本アプリを起動したままにしないことをおすすめします。</li>
+    </ul>
+
+    <h2>3. 本アプリが扱う映像</h2>
+    <ul>
+      <li>受け取った映像は、本アプリの画面への表示、全画面表示、および Windows 11 の仮想カメラ機能による WEBカメラ「おてがるんRTMP」としての出力（同じ PC の会議アプリなどへの受け渡し）にのみ使います。</li>
+      <li>映像の変換（デコード・縮小）は、すべて利用者の PC の中だけで行います。</li>
+      <li>本アプリは映像を録画・保存しません。音声は受け取っても使いません。</li>
+    </ul>
+
+    <h2>4. PC 内に保存する情報</h2>
+    <p>本アプリは、次回の起動時に同じ状態で使えるよう、次の情報を<strong>利用者の PC の中だけに</strong>保存します。</p>
+    <table>
+      <tr><th>保存する内容</th><th>例</th></tr>
+      <tr><td>設定</td><td>表示言語、受け付けるポート、表示用のストリームキー、選んだ IP アドレス、WEBカメラの出力の有無と大きさ など</td></tr>
+      <tr><td>エラーの記録</td><td>本アプリが正しく動かなかったときの技術的な情報</td></tr>
+    </table>
+    <ul>
+      <li>保存場所：<code>%APPDATA%\OtegarunRTMP</code>（Microsoft Store 版では、Windows が本アプリ専用の領域に振り分けます）</li>
+      <li>これらの情報が外部に送信されることはありません。</li>
+      <li>WEBカメラ機能の初回の準備では、カメラの部品（OtegarunVCam.dll）を <code>Program Files\OtegarunRTMP</code> に置き、Windows に登録します（Microsoft Store 版では不要な場合があります）。個人の情報は含みません。</li>
+      <li>本アプリをアンインストールすると、Microsoft Store 版ではこれらの情報も削除されます。手動で消したい場合は、上記のフォルダを削除してください。</li>
+    </ul>
+
+    <h2>5. Microsoft Store について</h2>
+    <p>本アプリの入手やアップデートは Microsoft Store を通じて行われます。その際の情報の取り扱いは、<a href="https://privacy.microsoft.com/ja-jp/privacystatement">Microsoft のプライバシーに関する声明</a>に従います。発行元がこれらの情報を受け取ることはありません。</p>
+
+    <h2>6. 子どもの利用</h2>
+    <p>本アプリは個人情報を収集しないため、年齢を問わず利用できます。</p>
+
+    <h2>7. このポリシーの変更</h2>
+    <p>内容を変更する場合は、このページを更新し、制定日を改めます。</p>
+
+    <h2>8. お問い合わせ</h2>
+    <p>本アプリの情報の取り扱いに関するお問い合わせは、次の連絡先までお願いします。<br>
+       発行元：PONNO<br>
+       連絡先：ponno.app@gmail.com</p>
+  </section>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <h1>Otegarun RTMP Privacy Policy</h1>
+    <p class="meta">Effective date: November 15, 2026 &nbsp;/&nbsp; Publisher: PONNO</p>
+    <p>This policy explains how Otegarun RTMP (Japanese name: おてがるんRTMP, "the app") handles your information.</p>
+
+    <h2>1. Information we collect</h2>
+    <p>The app <strong>does not collect any personal information.</strong> It does not obtain your name, email address, location, contacts, or device identifiers.</p>
+
+    <h2>2. Network communication</h2>
+    <ul>
+      <li>The app <strong>receives video sent over RTMP from devices on the same network (Wi-Fi / LAN)</strong> that you have set up — for example a camera or a streaming app — and opens a receiving port on your PC for this purpose (port 1935 by default).</li>
+      <li>The app <strong>does not connect to the internet.</strong> The received video, your settings and usage are never sent to the publisher or anyone else. The app contains no advertising or analytics.</li>
+      <li>Any device on the same network can send video to the app's receiving port. We recommend not leaving the app running on public Wi-Fi.</li>
+    </ul>
+
+    <h2>3. Video the app handles</h2>
+    <ul>
+      <li>Received video is used only to display it in the app, to show it full screen, and to provide it as the webcam "Otegarun RTMP" through the Windows 11 virtual camera feature (passing it to meeting apps and others on the same PC).</li>
+      <li>All video processing (decoding and resizing) happens locally on your PC.</li>
+      <li>The app does not record or save video. Audio is received but not used.</li>
+    </ul>
+
+    <h2>4. Information stored on your PC</h2>
+    <p>So that it can start in the same state next time, the app stores the following <strong>only on your PC</strong>:</p>
+    <table>
+      <tr><th>What</th><th>Examples</th></tr>
+      <tr><td>Settings</td><td>Display language, receiving port, the stream key shown, the selected IP address, webcam output on/off and size, etc.</td></tr>
+      <tr><td>Error log</td><td>Technical details when the app does not work correctly</td></tr>
+    </table>
+    <ul>
+      <li>Location: <code>%APPDATA%\OtegarunRTMP</code> (in the Microsoft Store version, Windows redirects this to a private area for the app)</li>
+      <li>This information is never sent anywhere.</li>
+      <li>The first-time setup of the webcam feature places the camera component (OtegarunVCam.dll) in <code>Program Files\OtegarunRTMP</code> and registers it with Windows (may not be needed in the Microsoft Store version). It contains no personal information.</li>
+      <li>Uninstalling the Microsoft Store version also removes this information. To remove it manually, delete the folder above.</li>
+    </ul>
+
+    <h2>5. Microsoft Store</h2>
+    <p>The app is obtained and updated through the Microsoft Store. Information handled in that process is governed by the <a href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement</a>. The publisher does not receive this information.</p>
+
+    <h2>6. Children</h2>
+    <p>Because the app collects no personal information, it can be used by people of any age.</p>
+
+    <h2>7. Changes to this policy</h2>
+    <p>If this policy changes, this page will be updated along with its effective date.</p>
+
+    <h2>8. Contact</h2>
+    <p>For questions about how the app handles information, please contact:<br>
+       Publisher: PONNO<br>
+       Contact: ponno.app@gmail.com</p>
+  </section>
+</main>
+</body>
+</html>
